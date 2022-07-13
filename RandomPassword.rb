@@ -4,5 +4,5 @@ def gen_password(p_lenght = 6)
 end
 
 print 'Enter the length : '
-passwordlength = gets.chomps.to_i
-print gen_password(passwordlength)
+passwordlength = gets.chomp.to_i
+print 'Password Generated is : ' + gen_password(passwordlength) + "\n"
